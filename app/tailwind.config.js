@@ -13,7 +13,7 @@ export default {
 	theme: {
 		extend: {
 			screens: {
-				lgPlus: '1322px'
+				lgPlus: '1434px'
 			}
 		}
 	},

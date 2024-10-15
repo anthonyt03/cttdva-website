@@ -3,7 +3,7 @@
 
 <div class="hidden lgPlus:flex gap-4 sm:hidden">
 	<div class="relative group">
-		<button type="button" class="btn bg-initial font-bold text-green-900">
+		<button type="button" class="btn bg-initial text-lg font-bold text-green-900">
 			<a href="/">Welcome</a>
 		</button>
 		<span
@@ -11,7 +11,7 @@
 		/>
 	</div>
 	<div class="relative group">
-		<button type="button" class="btn bg-initial font-bold text-green-900"
+		<button type="button" class="btn bg-initial text-lg font-bold text-green-900"
 			><a href="/ministries">Ministries</a>
 		</button>
 		<span
@@ -19,7 +19,7 @@
 		/>
 	</div>
 	<div class="relative group">
-		<button type="button" class="btn bg-initial font-bold text-green-900"
+		<button type="button" class="btn bg-initial text-lg font-bold text-green-900"
 			><a href="/sacrements">Sacrements</a>
 		</button>
 		<span
@@ -27,7 +27,7 @@
 		/>
 	</div>
 	<div class="relative group">
-		<button type="button" class="btn bg-initial font-bold text-green-900"
+		<button type="button" class="btn bg-initial text-lg font-bold text-green-900"
 			><a href="/family-and-parish">Family & Parish Life</a>
 		</button>
 		<span
@@ -35,7 +35,7 @@
 		/>
 	</div>
 	<div class="relative group">
-		<button type="button" class="btn bg-initial font-bold text-green-900">
+		<button type="button" class="btn bg-initial text-lg font-bold text-green-900">
 			<a href="/school">School</a>
 		</button>
 		<span
