@@ -33,7 +33,7 @@
 	}
 </script>
 
-<AppBar
+<!-- <AppBar
 	background="bg-success-900"
 	gridColumns="grid-cols-3"
 	slotDefault="place-self-center"
@@ -50,8 +50,16 @@
 			<img class="w-32" alt="Faith Direct" src={FDLogo} />
 		</button>
 	</svelte:fragment>
+</AppBar> -->
+<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" background="bg-white">
+	<svelte:fragment slot="lead">
+		<a href="/" class="flex flex-none gap-4">
+			<img class="w-8" alt="Church Logo" src={logo} />
+			<h1 class="text-lg text-green-900">Holy Martyrs of Vietnam Chuch</h1>
+		</a>
+	</svelte:fragment>
+	<HotdogMenu />
 </AppBar>
-<HotdogMenu />
 <slot />
 <footer class="bg-gray-800 text-white p-4 text-center">
 	<p>&copy; {new Date().getFullYear()} Holy Martyrs of Vietnam. All Rights Reserved.</p>
